@@ -104,7 +104,7 @@ def jogo():
                     else:
                         dino.pular()
 
-        if not game_error:
+        if not game_over:
             # Atualiza Dinossauro
             dino.atualizar()
 
