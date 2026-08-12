@@ -116,7 +116,7 @@ def jogo():
 
             # Atualiza e limpa Cactos
             for cacto in list(cactos):
-                cacto.atualizar()
+              
                 
                 # Checa colisão
                 if dino.get_rect().colliderect(cacto.get_rect()):
